@@ -1,17 +1,29 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
+        // 本机 HTTPS 不可用（schannel/网络层握手失败），而 ~/.gradle/init.d/aliyun-mirrors.gradle
+        // 会给所有工程前置注入阿里云 HTTPS 仓库，导致依赖解析卡在超时上。
+        // 这里先清空，再放本机 HTTP 转发代理（node tools/mvn-proxy.js 18080）。
+        clear()
+        maven {
+            url 'http://127.0.0.1:18080/'
+            allowInsecureProtocol = true
+        }
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.12.2'
+        classpath 'com.android.tools.build:gradle:9.3.0'
     }
 }
 
 allprojects {
     repositories {
+        maven {
+            url 'http://127.0.0.1:18080/'
+            allowInsecureProtocol = true
+        }
         google()
-        jcenter()
+        mavenCentral()
     }
 }

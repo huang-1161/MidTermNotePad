@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--  This is our one standard application action (creating a new note). -->
+
+    <!-- 搜索 -->
+    <item android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.widget.SearchView"
+        android:queryHint="@string/search_hint"
+        android:title="@string/menu_search" />
+
+    <!-- 新建笔记 -->
     <item android:id="@+id/menu_add"
-          android:icon="@drawable/ic_menu_compose"
-          android:title="@string/menu_add"
-          android:alphabeticShortcut='a'
-          android:showAsAction="always" />
-    <!--  If there is currently data in the clipboard, this adds a PASTE menu item to the menu
-          so that the user can paste in the data.. -->
+        android:icon="@drawable/ic_menu_compose"
+        android:title="@string/menu_add"
+        android:alphabeticShortcut='a'
+        android:showAsAction="always" />
+
+    <!-- 笔记分类（附加功能） -->
+    <item android:id="@+id/menu_categories"
+        android:title="@string/menu_categories" />
+
+    <!-- 排序（附加功能） -->
+    <item android:id="@+id/menu_sort"
+        android:title="@string/menu_sort" />
+
+    <!-- 更换背景（附加功能） -->
+    <item android:id="@+id/menu_background"
+        android:title="@string/menu_background" />
+
+    <!-- 粘贴 -->
     <item android:id="@+id/menu_paste"
-          android:icon="@drawable/ic_menu_compose"
-          android:title="@string/menu_paste"
-          android:alphabeticShortcut='p' />
+        android:icon="@drawable/ic_menu_compose"
+        android:title="@string/menu_paste"
+        android:alphabeticShortcut='p' />
 </menu>

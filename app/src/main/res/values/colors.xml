@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 分类固定色 -->
+    <color name="cat_all">#FFF1C1</color>
+    <color name="cat_default">#FFFFFF</color>
+    <color name="cat_work">#FFD6E7</color>
+    <color name="cat_study">#D6E6FF</color>
+    <color name="cat_life">#D9F2D0</color>
+
+    <!-- “默认”分类的轮换浅色（让列表一进去就有颜色） -->
+    <color name="row_pink">#FFE3EC</color>
+    <color name="row_blue">#E3EFFF</color>
+    <color name="row_green">#E6F5DA</color>
+    <color name="row_yellow">#FFF6D6</color>
+</resources>
