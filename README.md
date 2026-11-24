@@ -407,7 +407,9 @@
 
 ![QQ_1795481876890](C:\Users\27659\AppData\Local\Temp\QQ_1795481876890.png)
 
-![QQ_1795481896445](C:\Users\27659\AppData\Local\Temp\QQ_1795481896445.png)
+![](C:\Users\27659\AppData\Local\Temp\QQ_1795481896445.png
+
+![QQ_1795482522731](C:\Users\27659\AppData\Local\Temp\QQ_1795482522731.png)
 
 #### 实现思路
 
@@ -1214,6 +1216,17 @@ public class CategoryActivity extends Activity {
 ![QQ_1795425881538](C:\Users\27659\AppData\Local\Temp\QQ_1795425881538.png)
 
 ![QQ_1795482113076](C:\Users\27659\AppData\Local\Temp\QQ_1795482113076.png)
+
+
+
+按修改时间排序：
+![QQ_1795482595431](C:\Users\27659\AppData\Local\Temp\QQ_1795482595431.png)
+
+![QQ_1795482617918](C:\Users\27659\AppData\Local\Temp\QQ_1795482617918.png)
+	按创建时间排序：
+![QQ_1795482660039](C:\Users\27659\AppData\Local\Temp\QQ_1795482660039.png)
+按标题排序（A-Z)：
+![QQ_1795482660039](C:\Users\27659\AppData\Local\Temp\QQ_1795482660039.png)
 
 #### 实现思路
 
