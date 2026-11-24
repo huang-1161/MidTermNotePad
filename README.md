@@ -29,6 +29,8 @@
 
 ![QQ_1795425722352](C:\Users\27659\AppData\Local\Temp\QQ_1795425722352.png)
 
+![QQ_1795481763513](C:\Users\27659\AppData\Local\Temp\QQ_1795481763513.png)
+
 #### 实现思路
 
 1. **数据从哪来**：`notes` 表本来就有 `created` / `modified` 两列（毫秒时间戳）。
@@ -398,6 +400,14 @@
 ![编辑页](docs/images/04-note-editor.png)
 
 ![更换背景](docs/images/07-background-dialog.png)
+
+![QQ_1795481833995](C:\Users\27659\AppData\Local\Temp\QQ_1795481833995.png)
+
+![QQ_1795481856076](C:\Users\27659\AppData\Local\Temp\QQ_1795481856076.png)
+
+![QQ_1795481876890](C:\Users\27659\AppData\Local\Temp\QQ_1795481876890.png)
+
+![QQ_1795481896445](C:\Users\27659\AppData\Local\Temp\QQ_1795481896445.png)
 
 #### 实现思路
 
@@ -782,6 +792,12 @@ public final class NoteStyle {
 ![编辑页设置分类](docs/images/05-editor-category-dialog.png)
 
 ![QQ_1795425845970](C:\Users\27659\AppData\Local\Temp\QQ_1795425845970.png)
+
+![QQ_1795481949962](C:\Users\27659\AppData\Local\Temp\QQ_1795481949962.png)
+
+![QQ_1795481979626](C:\Users\27659\AppData\Local\Temp\QQ_1795481979626.png)
+
+![QQ_1795482188360](C:\Users\27659\AppData\Local\Temp\QQ_1795482188360.png)
 
 #### 实现思路
 
@@ -1196,6 +1212,8 @@ public class CategoryActivity extends Activity {
 ![排序](docs/images/06-sort-dialog.png)
 
 ![QQ_1795425881538](C:\Users\27659\AppData\Local\Temp\QQ_1795425881538.png)
+
+![QQ_1795482113076](C:\Users\27659\AppData\Local\Temp\QQ_1795482113076.png)
 
 #### 实现思路
 
